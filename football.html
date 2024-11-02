@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d2e3fe;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1c2a43;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            margin-bottom: 20px;
+            color: #8692a0;
+            font-size: 1.2rem;
+        }
+
+        .rules, .leagues {
+            margin-bottom: 20px;
+            color: dimgray;
+            font-size: 1.2rem;
+        }
+
+        .image-container {
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            border-radius: 5px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .content img {
+            width: 100%;
+            max-width: 1200px;
+            height: 650px; 
+            border-radius: 9px;
+            position: relative;
+           
+        }
+
+        .rules {
+            margin-top: 20px;
+        }
+
+        .leagues {
+            margin-top: 20px;
+        }
+
+        .rules h3, .players h3, .leagues h3 {
+            margin-bottom: 0px;
+            font-size: 1.4rem;
+            color: #1c2a43;
+        }
+
+        .players ul, .leagues p {
+            list-style: none;
+            padding: 0;
+        }
+
+        .players li {
+            background-color: #f4f4fd;
+            margin: 5px 0px;
+            padding: 10px;
+            border-radius: 5px;
+            color: darkslategray;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #1c2a43;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+           
+        }
+
+        .back-btn:hover {
+            background-color: gray;
+        }
+
+        footer {
+            background-color: #1c2a43;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Football</h1>
+    </header>
+
+    <div class="content">
+        <h2>About Football</h2>
+        <p>Football, also known as soccer in some countries, is the most popular sport globally, 
+            played by two teams of 11 players with a spherical ball. 
+            The objective is to score by getting the ball into the opposing goal.</p>
+
+        <div class="image-container">
+            <img src="football.jpg" alt="Football" id="football-image">
+        </div>
+
+        <div class="rules">
+            <h3>Football Rules</h3>
+            <p>The game lasts 90 minutes, split into two halves of 45 minutes each. 
+                The game is officiated by a referee and two assistant referees, ensuring fair play 
+                and adherence to the rules.</p>
+        </div>
+
+        <div class="players">
+            <h3>Famous Football Players</h3>
+            <ul>
+                <li>Lionel Messi</li>
+                <li>Cristiano Ronaldo</li>
+                <li>Neymar Jr.</li>
+                <li>Kylian Mbappe</li>
+            </ul>
+        </div>
+
+        <div class="leagues">
+            <h3>Major Football Leagues</h3>
+            <p>Some of the top football leagues include the English Premier League, 
+                La Liga, Serie A, and the UEFA Champions League, which is the most prestigious 
+                club competition in Europe.</p>
+        </div>
+
+        <a href="perbaikan.html" class="back-btn">Back to Home</a>
+    </div>
+
+    <footer>
+        <p>© 2024 Sports Enthusiasts</p>
+    </footer>
+</body>
+</html>
